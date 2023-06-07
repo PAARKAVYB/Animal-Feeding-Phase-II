@@ -1,6 +1,6 @@
 # ANIMAL FEEDING PHASE-II
 ## AIM:
-To develop a animal feeding game-Phase-2 using unity engine with C#.
+To develop an animal feeding game-Phase-2 using unity engine with C#.
 
 ## ALGORITHM:
 ### RANDOM ANIMAL STAMPEDE:
@@ -11,7 +11,7 @@ Create a new script called “SpawnManager”, drag the script and attach it to 
 ### STEP 3:
 Declare new public GameObject[ ] animalPrefabs;
 ### STEP 4:
-In the inspector assign the size as 3 , for each element drag the animals from prefabs folder into the array.
+In the inspector assign the size as 3, for each element drag the animals from prefabs folder into the array.
 
 ### COLLISION DECISIONS:
 ### STEP 1:
@@ -27,7 +27,7 @@ Add a RigidBody component to the (pizza)projectile and uncheck “use gravity”
 ### STEP 6:
 Create a new DetectCollisions.cs script, then drag the scripts and add it to each animal prefab and pizza, then open it and check it.
 ### STEP 7:
-For all the animal prefabs and food in th inspector (below the  layer ) drop down the override option and choose apply all.
+For all the animal prefabs and food in the inspector (below the  layer ) drop down the override option and choose apply all.
 
 ## PROGRAM:
 ### SPAWN MANAGER
